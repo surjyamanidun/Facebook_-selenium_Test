@@ -35,7 +35,7 @@ public class LocatorsElements {
 
     @Test
     public void registerPartialLinkTest() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Altamash\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "F:\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         String baseUrl = "http://demo.guru99.com/test/newtours/";
         driver.get(baseUrl);

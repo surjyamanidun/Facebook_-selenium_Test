@@ -7,7 +7,7 @@ public class BrowserNavigation {
     @Test
     public void navigation() throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "F:\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "\\chromeF:\\driverdriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
